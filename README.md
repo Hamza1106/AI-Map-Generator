@@ -98,15 +98,16 @@ python game.py
 
 The engine will generate a unique AI-powered procedural world ready for real-time exploration.
 
-AI WORLD GENERATOR
-│
+## 📂 Project Structure
+
+```text
+.
 ├── assets/
 │   ├── audio/
 │   ├── player/
 │   └── tiles/
 │
 ├── data/
-│
 ├── models/
 │   └── tile_classifier.pkl
 │
@@ -116,12 +117,12 @@ AI WORLD GENERATOR
 │   ├── placer.py
 │   ├── renderer.py
 │   ├── train.py
-│   │
 │   └── games/
 │       ├── camera.py
+│       ├── constants.py
 │       ├── fog.py
 │       ├── hud.py
-│       ├── player.py
-│       └── constants.py
+│       └── player.py
 │
 └── game.py
+```
